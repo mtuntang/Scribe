@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import db from "./firebase";
 
 function CreateArea(props) {
   const [note, setNote] = useState({
